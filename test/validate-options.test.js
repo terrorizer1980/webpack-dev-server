@@ -504,6 +504,10 @@ const tests = {
       },
     ],
   },
+  setupMiddlewares: {
+    success: [() => {}],
+    failure: [false, 10, "true"],
+  },
   webSocketServer: {
     success: [
       false,
